@@ -25,6 +25,7 @@ public interface CarRepository extends CrudRepository<Car, Long>{
     // Fetch cars by brand and sort by year
     List<Car> findByBrandOrderByYearAsc(String brand);
 
+
     /*
     // Fetch cars by brand using SQL
     @Query("select c from Car c where c.brand = %1")
