@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import AppBar from '@material-ui/core/AppBar';
 import { Toolbar, Typography } from '@material-ui/core';
+import AddItem from './AddItem';
 
 function App() {
 
@@ -19,7 +20,8 @@ function App() {
 		SHOPPINGLIST
 	      </Typography>
 	    </Toolbar>
-	    </AppBar>
+	  </AppBar>
+	  <AddItem addItem={addItem} />
 	</div>
     );
 }
