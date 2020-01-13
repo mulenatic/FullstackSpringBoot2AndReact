@@ -1,26 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import AppBar from '@material-ui/core/AppBar';
+import { Toolbar, Typography } from '@material-ui/core';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+	<div className="App">
+	  <AppBar position="static" color="default">
+	    <Toolbar>
+	      <Typography variant="h6" color="inherit">
+		SHOPPINGLIST
+	      </Typography>
+	    </Toolbar>
+	    </AppBar>
+	</div>
+    );
 }
 
 export default App;
