@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Contact = () => {
-    reutrn (
+    return (
 	<div>
 	  <h1>Contact.js</h1>
 	</div>

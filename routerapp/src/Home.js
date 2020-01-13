@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Home = () => {
-    reutrn (
+    return (
 	<div>
 	  <h1>Home.js</h1>
 	</div>
