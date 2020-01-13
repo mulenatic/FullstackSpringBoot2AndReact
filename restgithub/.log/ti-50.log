@@ -1,0 +1,30 @@
+[7:59:10.284] Global cache location '/home/docker/.cache/typescript/3.7', safe file path '/usr/lib/node_modules/typescript/lib/typingSafeList.json', types map path /usr/lib/node_modules/typescript/lib/typesMap.json
+[7:59:10.285] Processing cache location '/home/docker/.cache/typescript/3.7'
+[7:59:10.285] Trying to find '/home/docker/.cache/typescript/3.7/package.json'...
+[7:59:10.286] Finished processing cache location '/home/docker/.cache/typescript/3.7'
+[7:59:10.286] Process id: 59
+[7:59:10.286] NPM location: /usr/bin/npm (explicit '--npmLocation' not  provided)
+[7:59:10.286] validateDefaultNpmLocation: false
+[7:59:10.286] Npm config file: /home/docker/.cache/typescript/3.7/package.json
+[7:59:10.286] Npm config file: '/home/docker/.cache/typescript/3.7/package.json' is missing, creating new one...
+[7:59:10.288] Updating types-registry npm package...
+[7:59:10.288] Exec: /usr/bin/npm install --ignore-scripts types-registry@latest
+[7:59:11.370]     Succeeded. stdout:
+    + types-registry@0.1.473
+    added 1 package from 1 contributor and audited 1 package in 0.479s
+found 0 vulnerabilities
+
+
+[7:59:11.370] Updated types-registry npm package
+[7:59:13.685] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.d.ts","/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/emacsDocuments/restgithub/src/App.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/emacsDocuments/restgithub/src","kind":"discover"}
+[7:59:13.730] Loaded safelist from types map file '/usr/lib/node_modules/typescript/lib/typesMap.json'
+[7:59:13.730] Explicitly included types: []
+[7:59:13.732] Inferred typings from unresolved imports: []
+[7:59:13.732] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/emacsDocuments/restgithub/src/bower_components","/emacsDocuments/restgithub/src/node_modules"]}
+[7:59:13.732] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/emacsDocuments/restgithub/src/bower_components","/emacsDocuments/restgithub/src/node_modules"]}
+[7:59:13.733] DirectoryWatcher:: Added:: WatchInfo: /emacsDocuments/restgithub/src/bower_components
+[7:59:13.735] DirectoryWatcher:: Added:: WatchInfo: /emacsDocuments/restgithub/src/node_modules
+[7:59:13.736] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[7:59:13.736] Response has been sent.
+[7:59:13.736] No new typings were requested as a result of typings discovery

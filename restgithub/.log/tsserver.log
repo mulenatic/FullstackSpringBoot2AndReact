@@ -1,0 +1,33 @@
+Info 0    [7:59:10.30] Starting TS Server
+Info 1    [7:59:10.30] Version: 3.7.4
+Info 2    [7:59:10.30] Arguments: /usr/bin/node /usr/bin/tsserver --logFile /emacsDocuments/restgithub/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/86a03e004432785b2e855dc216154063/tscancellation*
+Info 3    [7:59:10.30] Platform: linux NodeVersion: 13 CaseSensitive: true
+Info 4    [7:59:10.46] Search path: /emacsDocuments/restgithub/src
+Info 5    [7:59:10.47] For info: /emacsDocuments/restgithub/src/App.js :: No config files found.
+Info 6    [7:59:10.51] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 7    [7:59:13.483] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true Elapsed: 3432ms
+Info 8    [7:59:13.483] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 9    [7:59:13.483] 	Files (120)
+
+Info 10   [7:59:13.483] -----------------------------------------------
+Info 11   [7:59:13.569] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 12   [7:59:13.634] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 2 structureChanged: true Elapsed: 65ms
+Info 13   [7:59:13.634] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 14   [7:59:13.635] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 15   [7:59:13.649] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 3 structureChanged: false Elapsed: 14ms
+Info 16   [7:59:13.649] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 17   [7:59:13.683] DirectoryWatcher:: Triggered with /emacsDocuments/restgithub/src/.#App.js :: WatchInfo: /emacsDocuments/restgithub/src 0 Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 18   [7:59:13.683] Elapsed:: 0ms DirectoryWatcher:: Triggered with /emacsDocuments/restgithub/src/.#App.js :: WatchInfo: /emacsDocuments/restgithub/src 0 Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 19   [7:59:13.948] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 20   [7:59:13.960] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 4 structureChanged: false Elapsed: 11ms
+Info 21   [7:59:13.960] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 22   [7:59:14.198] Structure before ensureProjectForOpenFiles:
+Info 23   [7:59:14.198] Structure after ensureProjectForOpenFiles:
+Info 24   [7:59:14.199] got projects updated in background, updating diagnostics for /emacsDocuments/restgithub/src/App.js
+Info 25   [7:59:18.913] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 26   [7:59:18.926] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 5 structureChanged: false Elapsed: 13ms
+Info 27   [7:59:18.926] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 28   [7:59:19.656] DirectoryWatcher:: Triggered with /emacsDocuments/restgithub/src/App.js~ :: WatchInfo: /emacsDocuments/restgithub/src 0 Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 29   [7:59:19.656] Elapsed:: 0ms DirectoryWatcher:: Triggered with /emacsDocuments/restgithub/src/App.js~ :: WatchInfo: /emacsDocuments/restgithub/src 0 Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 30   [7:59:19.659] DirectoryWatcher:: Triggered with /emacsDocuments/restgithub/src/.#App.js :: WatchInfo: /emacsDocuments/restgithub/src 0 Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 31   [7:59:19.659] Elapsed:: 0ms DirectoryWatcher:: Triggered with /emacsDocuments/restgithub/src/.#App.js :: WatchInfo: /emacsDocuments/restgithub/src 0 Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
