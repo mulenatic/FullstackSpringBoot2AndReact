@@ -1,0 +1,412 @@
+Info 0    [12:44:15.983] Starting TS Server
+Info 1    [12:44:15.984] Version: 3.7.4
+Info 2    [12:44:15.984] Arguments: /usr/bin/node /usr/bin/tsserver --logFile /emacsDocuments/routerapp/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/96705af6052afa1a5372e5d1410bab86/tscancellation*
+Info 3    [12:44:15.984] Platform: linux NodeVersion: 13 CaseSensitive: true
+Info 4    [12:44:15.998] Search path: /emacsDocuments/routerapp/src
+Info 5    [12:44:15.999] For info: /emacsDocuments/routerapp/src/App.js :: No config files found.
+Info 6    [12:44:16.3] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 7    [12:44:20.184] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true Elapsed: 4181ms
+Info 8    [12:44:20.184] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 9    [12:44:20.184] 	Files (121)
+
+Info 10   [12:44:20.184] -----------------------------------------------
+Info 11   [12:44:20.367] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 12   [12:44:20.378] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 2 structureChanged: false Elapsed: 11ms
+Info 13   [12:44:20.378] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 14   [12:44:20.779] Structure before ensureProjectForOpenFiles:
+Info 15   [12:44:20.779] Structure after ensureProjectForOpenFiles:
+Info 16   [12:44:20.779] got projects updated in background, updating diagnostics for /emacsDocuments/routerapp/src/App.js
+Info 17   [12:44:21.204] DirectoryWatcher:: Triggered with /emacsDocuments/routerapp/src/.#App.js :: WatchInfo: /emacsDocuments/routerapp/src 0 Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 18   [12:44:21.205] Elapsed:: 0ms DirectoryWatcher:: Triggered with /emacsDocuments/routerapp/src/.#App.js :: WatchInfo: /emacsDocuments/routerapp/src 0 Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 19   [12:44:21.412] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 20   [12:44:21.478] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 3 structureChanged: true Elapsed: 66ms
+Info 21   [12:44:21.478] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 22   [12:44:21.879] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 23   [12:44:21.892] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 4 structureChanged: false Elapsed: 13ms
+Info 24   [12:44:21.893] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 25   [12:44:26.942] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 26   [12:44:26.953] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 5 structureChanged: false Elapsed: 11ms
+Info 27   [12:44:26.953] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 28   [12:44:27.717] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 29   [12:44:27.729] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 6 structureChanged: false Elapsed: 12ms
+Info 30   [12:44:27.729] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Err 31    [12:44:27.747] Exception on executing command {"command":"quickinfo","seq":59,"type":"request","arguments":{"file":"/emacsDocuments/routerapp/src/App.js","line":8,"offset":7}}:
+
+    Debug Failure. False expression: `JsxText` tokens should not be the first child of `JsxElement | JsxSelfClosingElement`
+
+    Error: Debug Failure. False expression: `JsxText` tokens should not be the first child of `JsxElement | JsxSelfClosingElement`
+        at findRightmostChildNodeWithTokens (/usr/lib/node_modules/typescript/lib/tsserver.js:103088:26)
+        at find (/usr/lib/node_modules/typescript/lib/tsserver.js:103065:29)
+        at findPrecedingToken (/usr/lib/node_modules/typescript/lib/tsserver.js:103029:22)
+        at getTokenAtPositionWorker (/usr/lib/node_modules/typescript/lib/tsserver.js:102979:41)
+        at getTouchingToken (/usr/lib/node_modules/typescript/lib/tsserver.js:102953:16)
+        at Object.getTouchingPropertyName (/usr/lib/node_modules/typescript/lib/tsserver.js:102945:16)
+        at Object.getQuickInfoAtPosition (/usr/lib/node_modules/typescript/lib/tsserver.js:130795:27)
+        at IOSession.Session.getQuickInfoWorker (/usr/lib/node_modules/typescript/lib/tsserver.js:140314:62)
+        at Session.handlers.ts.createMapFromTemplate._a.<computed> (/usr/lib/node_modules/typescript/lib/tsserver.js:139349:61)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:140932:88
+        at IOSession.Session.executeWithRequestId (/usr/lib/node_modules/typescript/lib/tsserver.js:140923:28)
+        at IOSession.Session.executeCommand (/usr/lib/node_modules/typescript/lib/tsserver.js:140932:33)
+        at IOSession.Session.onMessage (/usr/lib/node_modules/typescript/lib/tsserver.js:140955:35)
+        at Interface.<anonymous> (/usr/lib/node_modules/typescript/lib/tsserver.js:142270:27)
+        at Interface.emit (events.js:321:20)
+        at Interface._onLine (readline.js:323:10)
+        at Interface._normalWrite (readline.js:468:12)
+        at Socket.ondata (readline.js:180:10)
+        at Socket.emit (events.js:321:20)
+        at addChunk (_stream_readable.js:305:12)
+        at readableAddChunk (_stream_readable.js:280:11)
+        at Socket.Readable.push (_stream_readable.js:214:10)
+        at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+Err 32    [12:44:27.928] Exception on executing command {"command":"documentHighlights","seq":62,"type":"request","arguments":{"file":"/emacsDocuments/routerapp/src/App.js","line":8,"offset":7,"filesToSearch":["/emacsDocuments/routerapp/src/App.js"]}}:
+
+    Debug Failure. False expression: `JsxText` tokens should not be the first child of `JsxElement | JsxSelfClosingElement`
+
+    Error: Debug Failure. False expression: `JsxText` tokens should not be the first child of `JsxElement | JsxSelfClosingElement`
+        at findRightmostChildNodeWithTokens (/usr/lib/node_modules/typescript/lib/tsserver.js:103088:26)
+        at find (/usr/lib/node_modules/typescript/lib/tsserver.js:103065:29)
+        at findPrecedingToken (/usr/lib/node_modules/typescript/lib/tsserver.js:103029:22)
+        at getTokenAtPositionWorker (/usr/lib/node_modules/typescript/lib/tsserver.js:102979:41)
+        at getTouchingToken (/usr/lib/node_modules/typescript/lib/tsserver.js:102953:16)
+        at Object.getTouchingPropertyName (/usr/lib/node_modules/typescript/lib/tsserver.js:102945:16)
+        at Object.getDocumentHighlights (/usr/lib/node_modules/typescript/lib/tsserver.js:108263:27)
+        at Object.getDocumentHighlights (/usr/lib/node_modules/typescript/lib/tsserver.js:130876:42)
+        at IOSession.Session.getDocumentHighlights (/usr/lib/node_modules/typescript/lib/tsserver.js:140082:71)
+        at Session.handlers.ts.createMapFromTemplate._a.<computed> (/usr/lib/node_modules/typescript/lib/tsserver.js:139504:61)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:140932:88
+        at IOSession.Session.executeWithRequestId (/usr/lib/node_modules/typescript/lib/tsserver.js:140923:28)
+        at IOSession.Session.executeCommand (/usr/lib/node_modules/typescript/lib/tsserver.js:140932:33)
+        at IOSession.Session.onMessage (/usr/lib/node_modules/typescript/lib/tsserver.js:140955:35)
+        at Interface.<anonymous> (/usr/lib/node_modules/typescript/lib/tsserver.js:142270:27)
+        at Interface.emit (events.js:321:20)
+        at Interface._onLine (readline.js:323:10)
+        at Interface._normalWrite (readline.js:468:12)
+        at Socket.ondata (readline.js:180:10)
+        at Socket.emit (events.js:321:20)
+        at addChunk (_stream_readable.js:305:12)
+        at readableAddChunk (_stream_readable.js:280:11)
+        at Socket.Readable.push (_stream_readable.js:214:10)
+        at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+Err 33    [12:44:28.223] Exception on executing command {"command":"quickinfo","seq":68,"type":"request","arguments":{"file":"/emacsDocuments/routerapp/src/App.js","line":8,"offset":7}}:
+
+    Debug Failure. False expression: `JsxText` tokens should not be the first child of `JsxElement | JsxSelfClosingElement`
+
+    Error: Debug Failure. False expression: `JsxText` tokens should not be the first child of `JsxElement | JsxSelfClosingElement`
+        at findRightmostChildNodeWithTokens (/usr/lib/node_modules/typescript/lib/tsserver.js:103088:26)
+        at find (/usr/lib/node_modules/typescript/lib/tsserver.js:103065:29)
+        at findPrecedingToken (/usr/lib/node_modules/typescript/lib/tsserver.js:103029:22)
+        at getTokenAtPositionWorker (/usr/lib/node_modules/typescript/lib/tsserver.js:102979:41)
+        at getTouchingToken (/usr/lib/node_modules/typescript/lib/tsserver.js:102953:16)
+        at Object.getTouchingPropertyName (/usr/lib/node_modules/typescript/lib/tsserver.js:102945:16)
+        at Object.getQuickInfoAtPosition (/usr/lib/node_modules/typescript/lib/tsserver.js:130795:27)
+        at IOSession.Session.getQuickInfoWorker (/usr/lib/node_modules/typescript/lib/tsserver.js:140314:62)
+        at Session.handlers.ts.createMapFromTemplate._a.<computed> (/usr/lib/node_modules/typescript/lib/tsserver.js:139349:61)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:140932:88
+        at IOSession.Session.executeWithRequestId (/usr/lib/node_modules/typescript/lib/tsserver.js:140923:28)
+        at IOSession.Session.executeCommand (/usr/lib/node_modules/typescript/lib/tsserver.js:140932:33)
+        at IOSession.Session.onMessage (/usr/lib/node_modules/typescript/lib/tsserver.js:140955:35)
+        at Interface.<anonymous> (/usr/lib/node_modules/typescript/lib/tsserver.js:142270:27)
+        at Interface.emit (events.js:321:20)
+        at Interface._onLine (readline.js:323:10)
+        at Interface._normalWrite (readline.js:468:12)
+        at Socket.ondata (readline.js:180:10)
+        at Socket.emit (events.js:321:20)
+        at addChunk (_stream_readable.js:305:12)
+        at readableAddChunk (_stream_readable.js:280:11)
+        at Socket.Readable.push (_stream_readable.js:214:10)
+        at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+Info 34   [12:44:30.286] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 35   [12:44:30.303] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 7 structureChanged: false Elapsed: 17ms
+Info 36   [12:44:30.303] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 37   [12:44:33.514] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 38   [12:44:33.524] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 8 structureChanged: false Elapsed: 10ms
+Info 39   [12:44:33.524] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 40   [12:44:34.185] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 41   [12:44:34.201] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 9 structureChanged: false Elapsed: 15ms
+Info 42   [12:44:34.201] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 43   [12:44:34.337] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 44   [12:44:34.346] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 10 structureChanged: false Elapsed: 9ms
+Info 45   [12:44:34.346] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 46   [12:44:34.411] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 47   [12:44:34.420] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 11 structureChanged: false Elapsed: 8ms
+Info 48   [12:44:34.421] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 49   [12:44:34.586] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 50   [12:44:34.599] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 12 structureChanged: false Elapsed: 13ms
+Info 51   [12:44:34.599] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 52   [12:44:34.767] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 53   [12:44:34.776] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 13 structureChanged: false Elapsed: 9ms
+Info 54   [12:44:34.776] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 55   [12:44:35.31] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 56   [12:44:35.39] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 14 structureChanged: false Elapsed: 8ms
+Info 57   [12:44:35.39] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 58   [12:44:35.432] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 59   [12:44:35.452] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 15 structureChanged: false Elapsed: 19ms
+Info 60   [12:44:35.452] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 61   [12:44:58.890] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 62   [12:44:58.903] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 16 structureChanged: false Elapsed: 13ms
+Info 63   [12:44:58.903] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 64   [12:44:59.72] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 65   [12:44:59.86] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 17 structureChanged: false Elapsed: 14ms
+Info 66   [12:44:59.86] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 67   [12:44:59.219] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 68   [12:44:59.235] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 18 structureChanged: false Elapsed: 16ms
+Info 69   [12:44:59.235] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 70   [12:44:59.378] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 71   [12:44:59.393] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 19 structureChanged: false Elapsed: 15ms
+Info 72   [12:44:59.393] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 73   [12:44:59.531] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 74   [12:44:59.542] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 20 structureChanged: false Elapsed: 11ms
+Info 75   [12:44:59.542] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 76   [12:44:59.718] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 77   [12:44:59.732] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 21 structureChanged: false Elapsed: 14ms
+Info 78   [12:44:59.733] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 79   [12:45:0.348] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 80   [12:45:0.357] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 22 structureChanged: false Elapsed: 9ms
+Info 81   [12:45:0.357] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 82   [12:45:0.926] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 83   [12:45:0.942] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 23 structureChanged: false Elapsed: 16ms
+Info 84   [12:45:0.942] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 85   [12:45:0.944] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 86   [12:45:0.958] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 24 structureChanged: false Elapsed: 14ms
+Info 87   [12:45:0.958] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 88   [12:45:0.960] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 89   [12:45:0.972] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 25 structureChanged: false Elapsed: 12ms
+Info 90   [12:45:0.972] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 91   [12:45:0.975] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 92   [12:45:0.985] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 26 structureChanged: false Elapsed: 10ms
+Info 93   [12:45:0.985] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 94   [12:45:0.987] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 95   [12:45:0.997] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 27 structureChanged: false Elapsed: 10ms
+Info 96   [12:45:0.997] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 97   [12:45:0.999] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 98   [12:45:1.15] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 28 structureChanged: false Elapsed: 15ms
+Info 99   [12:45:1.15] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 100  [12:45:1.16] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 101  [12:45:1.28] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 29 structureChanged: false Elapsed: 12ms
+Info 102  [12:45:1.28] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 103  [12:45:1.29] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 104  [12:45:1.38] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 30 structureChanged: false Elapsed: 9ms
+Info 105  [12:45:1.39] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 106  [12:45:1.40] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 107  [12:45:1.48] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 31 structureChanged: false Elapsed: 8ms
+Info 108  [12:45:1.48] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 109  [12:45:1.49] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 110  [12:45:1.62] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 32 structureChanged: false Elapsed: 13ms
+Info 111  [12:45:1.62] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 112  [12:45:1.62] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 113  [12:45:1.80] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 33 structureChanged: false Elapsed: 18ms
+Info 114  [12:45:1.80] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 115  [12:45:1.81] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 116  [12:45:1.91] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 34 structureChanged: false Elapsed: 10ms
+Info 117  [12:45:1.91] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 118  [12:45:1.92] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 119  [12:45:1.102] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 35 structureChanged: false Elapsed: 10ms
+Info 120  [12:45:1.102] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 121  [12:45:1.102] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 122  [12:45:1.117] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 36 structureChanged: false Elapsed: 15ms
+Info 123  [12:45:1.117] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 124  [12:45:1.118] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 125  [12:45:1.127] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 37 structureChanged: false Elapsed: 9ms
+Info 126  [12:45:1.127] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 127  [12:45:1.170] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 128  [12:45:1.225] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 38 structureChanged: false Elapsed: 55ms
+Info 129  [12:45:1.225] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 130  [12:45:1.235] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 131  [12:45:1.264] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 39 structureChanged: false Elapsed: 29ms
+Info 132  [12:45:1.264] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 133  [12:45:1.265] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 134  [12:45:1.275] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 40 structureChanged: false Elapsed: 10ms
+Info 135  [12:45:1.275] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 136  [12:45:1.276] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 137  [12:45:1.285] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 41 structureChanged: false Elapsed: 9ms
+Info 138  [12:45:1.285] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 139  [12:45:1.286] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 140  [12:45:1.292] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 42 structureChanged: false Elapsed: 6ms
+Info 141  [12:45:1.292] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 142  [12:45:1.292] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 143  [12:45:1.299] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 43 structureChanged: false Elapsed: 6ms
+Info 144  [12:45:1.299] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 145  [12:45:1.300] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 146  [12:45:1.307] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 44 structureChanged: false Elapsed: 7ms
+Info 147  [12:45:1.307] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 148  [12:45:1.308] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 149  [12:45:1.315] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 45 structureChanged: false Elapsed: 7ms
+Info 150  [12:45:1.315] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 151  [12:45:1.316] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 152  [12:45:1.328] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 46 structureChanged: false Elapsed: 12ms
+Info 153  [12:45:1.328] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 154  [12:45:1.329] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 155  [12:45:1.344] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 47 structureChanged: false Elapsed: 15ms
+Info 156  [12:45:1.344] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 157  [12:45:1.345] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 158  [12:45:1.361] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 48 structureChanged: false Elapsed: 16ms
+Info 159  [12:45:1.361] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 160  [12:45:1.362] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 161  [12:45:1.378] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 49 structureChanged: false Elapsed: 16ms
+Info 162  [12:45:1.378] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 163  [12:45:1.379] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 164  [12:45:1.390] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 50 structureChanged: false Elapsed: 11ms
+Info 165  [12:45:1.390] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 166  [12:45:1.391] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 167  [12:45:1.400] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 51 structureChanged: false Elapsed: 9ms
+Info 168  [12:45:1.400] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 169  [12:45:1.401] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 170  [12:45:1.412] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 52 structureChanged: false Elapsed: 11ms
+Info 171  [12:45:1.412] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 172  [12:45:1.413] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 173  [12:45:1.426] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 53 structureChanged: false Elapsed: 13ms
+Info 174  [12:45:1.426] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 175  [12:45:1.427] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 176  [12:45:1.438] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 54 structureChanged: false Elapsed: 11ms
+Info 177  [12:45:1.438] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 178  [12:45:1.439] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 179  [12:45:1.449] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 55 structureChanged: false Elapsed: 10ms
+Info 180  [12:45:1.450] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 181  [12:45:1.450] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 182  [12:45:1.471] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 56 structureChanged: false Elapsed: 21ms
+Info 183  [12:45:1.471] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 184  [12:45:1.471] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 185  [12:45:1.477] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 57 structureChanged: false Elapsed: 6ms
+Info 186  [12:45:1.477] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 187  [12:45:1.478] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 188  [12:45:1.485] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 58 structureChanged: false Elapsed: 7ms
+Info 189  [12:45:1.485] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 190  [12:45:1.485] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 191  [12:45:1.491] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 59 structureChanged: false Elapsed: 5ms
+Info 192  [12:45:1.492] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 193  [12:45:1.492] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 194  [12:45:1.497] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 60 structureChanged: false Elapsed: 5ms
+Info 195  [12:45:1.497] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 196  [12:45:1.498] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 197  [12:45:1.589] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 61 structureChanged: true Elapsed: 91ms
+Info 198  [12:45:1.589] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 199  [12:45:1.591] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 200  [12:45:1.645] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 62 structureChanged: true Elapsed: 54ms
+Info 201  [12:45:1.645] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 202  [12:45:1.646] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 203  [12:45:1.699] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 63 structureChanged: true Elapsed: 53ms
+Info 204  [12:45:1.699] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 205  [12:45:1.700] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 206  [12:45:1.752] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 64 structureChanged: true Elapsed: 52ms
+Info 207  [12:45:1.752] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 208  [12:45:1.753] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 209  [12:45:1.788] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 65 structureChanged: true Elapsed: 35ms
+Info 210  [12:45:1.788] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 211  [12:45:1.790] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 212  [12:45:1.824] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 66 structureChanged: true Elapsed: 34ms
+Info 213  [12:45:1.824] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 214  [12:45:1.826] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 215  [12:45:1.860] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 67 structureChanged: true Elapsed: 34ms
+Info 216  [12:45:1.860] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 217  [12:45:1.862] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 218  [12:45:1.892] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 68 structureChanged: true Elapsed: 30ms
+Info 219  [12:45:1.892] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 220  [12:45:1.893] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 221  [12:45:1.934] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 69 structureChanged: true Elapsed: 41ms
+Info 222  [12:45:1.934] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 223  [12:45:1.936] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 224  [12:45:1.973] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 70 structureChanged: true Elapsed: 37ms
+Info 225  [12:45:1.973] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 226  [12:45:1.975] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 227  [12:45:2.311] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 71 structureChanged: true Elapsed: 336ms
+Info 228  [12:45:2.312] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 229  [12:45:2.312] 	Files (130)
+
+Info 230  [12:45:2.312] -----------------------------------------------
+Info 231  [12:45:2.314] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 232  [12:45:2.360] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 72 structureChanged: true Elapsed: 46ms
+Info 233  [12:45:2.360] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 234  [12:45:2.360] 	Files (121)
+
+Info 235  [12:45:2.360] -----------------------------------------------
+Info 236  [12:45:2.361] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 237  [12:45:2.411] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 73 structureChanged: true Elapsed: 50ms
+Info 238  [12:45:2.411] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 239  [12:45:2.412] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 240  [12:45:2.533] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 74 structureChanged: true Elapsed: 121ms
+Info 241  [12:45:2.533] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 242  [12:45:2.533] 	Files (128)
+
+Info 243  [12:45:2.533] -----------------------------------------------
+Info 244  [12:45:2.552] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 245  [12:45:2.564] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 75 structureChanged: false Elapsed: 12ms
+Info 246  [12:45:2.564] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 247  [12:45:2.566] getCompletionData: Get current token: 0
+Info 248  [12:45:2.566] getCompletionData: Is inside comment: 0
+Info 249  [12:45:2.566] getCompletionData: Get previous token 1: 0
+Info 250  [12:45:2.567] getCompletionsAtPosition: isCompletionListBlocker: 1
+Info 251  [12:45:2.575] getSymbolsFromOtherSourceFileExports: Recomputing list
+Info 252  [12:45:2.586] forEachExternalModuleToImportFrom: filtered out 83 modules by package.json contents
+Info 253  [12:45:2.586] getSymbolsFromOtherSourceFileExports: 11
+Info 254  [12:45:2.618] getCompletionData: Semantic work: 51
+Info 255  [12:45:2.641] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 22
+Info 256  [12:45:2.680] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 257  [12:45:2.747] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 76 structureChanged: true Elapsed: 67ms
+Info 258  [12:45:2.747] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 259  [12:45:2.749] DirectoryWatcher:: Triggered with /emacsDocuments/routerapp/src/App.js~ :: WatchInfo: /emacsDocuments/routerapp/src 0 Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 260  [12:45:2.750] Elapsed:: 1ms DirectoryWatcher:: Triggered with /emacsDocuments/routerapp/src/App.js~ :: WatchInfo: /emacsDocuments/routerapp/src 0 Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 261  [12:45:2.750] DirectoryWatcher:: Triggered with /emacsDocuments/routerapp/src/.#App.js :: WatchInfo: /emacsDocuments/routerapp/src 0 Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 262  [12:45:2.750] Elapsed:: 0ms DirectoryWatcher:: Triggered with /emacsDocuments/routerapp/src/.#App.js :: WatchInfo: /emacsDocuments/routerapp/src 0 Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 263  [12:45:2.930] Structure before ensureProjectForOpenFiles:
+Info 264  [12:45:2.930] Structure after ensureProjectForOpenFiles:
+Info 265  [12:45:2.931] got projects updated in background, updating diagnostics for /emacsDocuments/routerapp/src/App.js
+Err 266   [12:45:3.221] Exception on executing command {"command":"getCodeFixes","seq":281,"type":"request","arguments":{"file":"/emacsDocuments/routerapp/src/App.js","startLine":3,"startOffset":70,"endLine":3,"endOffset":70,"errorCodes":[6192,7016]}}:
+
+    Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isStringLiteral'.
+
+    Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isStringLiteral'.
+        at Object.cast (/usr/lib/node_modules/typescript/lib/tsserver.js:1349:25)
+        at tryGetImportedPackageName (/usr/lib/node_modules/typescript/lib/tsserver.js:124492:33)
+        at Object.getCodeActions (/usr/lib/node_modules/typescript/lib/tsserver.js:124460:35)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:120403:121
+        at Object.flatMap (/usr/lib/node_modules/typescript/lib/tsserver.js:468:25)
+        at Object.getFixes (/usr/lib/node_modules/typescript/lib/tsserver.js:120403:23)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:131086:35
+        at Object.flatMap (/usr/lib/node_modules/typescript/lib/tsserver.js:468:25)
+        at Object.getCodeFixesAtPosition (/usr/lib/node_modules/typescript/lib/tsserver.js:131084:23)
+        at IOSession.Session.getCodeFixes (/usr/lib/node_modules/typescript/lib/tsserver.js:140739:64)
+        at Session.handlers.ts.createMapFromTemplate._a.<computed> (/usr/lib/node_modules/typescript/lib/tsserver.js:139524:61)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:140932:88
+        at IOSession.Session.executeWithRequestId (/usr/lib/node_modules/typescript/lib/tsserver.js:140923:28)
+        at IOSession.Session.executeCommand (/usr/lib/node_modules/typescript/lib/tsserver.js:140932:33)
+        at IOSession.Session.onMessage (/usr/lib/node_modules/typescript/lib/tsserver.js:140955:35)
+        at Interface.<anonymous> (/usr/lib/node_modules/typescript/lib/tsserver.js:142270:27)
+        at Interface.emit (events.js:321:20)
+        at Interface._onLine (readline.js:323:10)
+        at Interface._normalWrite (readline.js:468:12)
+        at Socket.ondata (readline.js:180:10)
+        at Socket.emit (events.js:321:20)
+        at addChunk (_stream_readable.js:305:12)
+        at readableAddChunk (_stream_readable.js:280:11)
+        at Socket.Readable.push (_stream_readable.js:214:10)
+        at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+Info 267  [12:45:4.154] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 268  [12:45:4.252] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 77 structureChanged: true Elapsed: 98ms
+Info 269  [12:45:4.252] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 270  [12:45:4.252] 	Files (138)
+
+Info 271  [12:45:4.252] -----------------------------------------------
+Info 272  [12:45:4.253] Structure before ensureProjectForOpenFiles:
+Info 273  [12:45:4.253] Structure after ensureProjectForOpenFiles:
+Info 274  [12:45:4.253] got projects updated in background, updating diagnostics for /emacsDocuments/routerapp/src/App.js
+Info 275  [12:45:5.414] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 276  [12:45:5.475] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 78 structureChanged: true Elapsed: 61ms
+Info 277  [12:45:5.475] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 278  [12:45:5.475] 	Files (131)
+
+Info 279  [12:45:5.475] -----------------------------------------------
+Info 280  [12:45:5.475] Structure before ensureProjectForOpenFiles:
+Info 281  [12:45:5.476] Structure after ensureProjectForOpenFiles:
+Info 282  [12:45:5.476] got projects updated in background, updating diagnostics for /emacsDocuments/routerapp/src/App.js
+Info 283  [12:45:5.584] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 284  [12:45:5.618] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 79 structureChanged: true Elapsed: 34ms
+Info 285  [12:45:5.618] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 286  [12:45:5.618] 	Files (131)
+
+Info 287  [12:45:5.618] -----------------------------------------------
+Info 288  [12:45:5.973] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 289  [12:45:5.981] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 80 structureChanged: false Elapsed: 8ms
+Info 290  [12:45:5.981] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 291  [12:45:5.982] Structure before ensureProjectForOpenFiles:
+Info 292  [12:45:5.982] Structure after ensureProjectForOpenFiles:
+Info 293  [12:45:5.982] got projects updated in background, updating diagnostics for /emacsDocuments/routerapp/src/App.js
