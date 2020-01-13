@@ -36,7 +36,7 @@ const AddItem = (props) => {
 	    <DialogTitle id="form-dialog-title">New Item</DialogTitle>
 	    <DialogContent>
 	      <TextField autoFocus margin="dense" value={item.product} onChange={handleChange} name="product" label="Product" fullWidth />
-	      <TextField autoFocus margin="dense" value={item.amount} onChange={handleChange} name="amount" label="Amount" fullWidth />
+	      <TextField margin="dense" value={item.amount} onChange={handleChange} name="amount" label="Amount" fullWidth />
 	    </DialogContent>
 	    <DialogActions>
 	      <Button onClick={handleClose} color="primary">

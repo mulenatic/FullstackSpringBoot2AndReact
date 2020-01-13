@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import AppBar from '@material-ui/core/AppBar';
-import { Toolbar, Typography } from '@material-ui/core';
+import { Toolbar, Typography, List, ListItem, ListItemText } from '@material-ui/core';
 import AddItem from './AddItem';
 
 function App() {
@@ -9,8 +9,13 @@ function App() {
     const [items, setItems] = React.useState([]);
 
     const addItem = (item) => {
-	setItems([items, ...items]);
+	setItems([item, ...items]);
     };
+
+    const listItems = items.map((item, index) =>
+				<ListItem key={index}>
+				<ListItemText primary={item.product} secondary={item.amount} />
+				</ListItem>);
     
     return (
 	<div className="App">
@@ -22,6 +27,7 @@ function App() {
 	    </Toolbar>
 	  </AppBar>
 	  <AddItem addItem={addItem} />
+	  <List>{listItems}</List>
 	</div>
     );
 }
