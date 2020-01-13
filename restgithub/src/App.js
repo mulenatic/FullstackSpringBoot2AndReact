@@ -14,11 +14,15 @@ function App() {
 	    .then(responseData => {
 		setData(responseData.items);
 	    });
-    }
+    };
 
     const handleChange = (e) => {
 	setKeyword(e.target.value);
-    }
+    };
+
+    const btnClick = (value) => {
+	alert(value);
+    };
 
     const columns = [{
 	Header: 'Name', // Header of the column
@@ -29,7 +33,14 @@ function App() {
     }, {
 	Header: 'Owner',
 	accessor: 'owner.login'
-    }]
+    }, {
+	id: 'button',
+	sortable: false,
+	filterable: false,
+	width: 100,
+	accessor: 'full_name',
+	Cell: ({value}) => (<button onClick={() => {btnClick(value)}}>Press me</button>)
+    }];
     
     return (	<div className="App">
 		<input type="text" onChange={handleChange} />
