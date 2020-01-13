@@ -4,6 +4,13 @@ import AppBar from '@material-ui/core/AppBar';
 import { Toolbar, Typography } from '@material-ui/core';
 
 function App() {
+
+    const [items, setItems] = React.useState([]);
+
+    const addItem = (item) => {
+	setItems([items, ...items]);
+    };
+    
     return (
 	<div className="App">
 	  <AppBar position="static" color="default">
