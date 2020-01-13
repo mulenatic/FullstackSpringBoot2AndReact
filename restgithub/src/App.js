@@ -34,7 +34,11 @@ function App() {
     return (	<div className="App">
 		<input type="text" onChange={handleChange} />
 		<button onClick={fetchData} value={keyword} >fetch</button>
-		<ReactTable data={data} columns={columns} />
+		<ReactTable
+		data={data}
+		columns={columns}
+		filterable={true}
+		defaultPageSize={5} />
 		</div>
 	   );
 }
