@@ -1,0 +1,18 @@
+Info 0    [10:14:26.654] Starting TS Server
+Info 1    [10:14:26.655] Version: 3.7.4
+Info 2    [10:14:26.655] Arguments: /usr/bin/node /usr/bin/tsserver --logFile /emacsDocuments/shoppinglist/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/bfd3c84e198765afe7962c36e7de528e/tscancellation*
+Info 3    [10:14:26.655] Platform: linux NodeVersion: 13 CaseSensitive: true
+Info 4    [10:14:26.672] Search path: /emacsDocuments/shoppinglist/src
+Info 5    [10:14:26.674] For info: /emacsDocuments/shoppinglist/src/App.js :: No config files found.
+Info 6    [10:14:26.679] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 7    [10:14:30.699] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true Elapsed: 4020ms
+Info 8    [10:14:30.699] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 9    [10:14:30.699] 	Files (121)
+
+Info 10   [10:14:30.699] -----------------------------------------------
+Info 11   [10:14:31.71] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 12   [10:14:31.83] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 2 structureChanged: false Elapsed: 12ms
+Info 13   [10:14:31.83] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 14   [10:14:31.328] Structure before ensureProjectForOpenFiles:
+Info 15   [10:14:31.328] Structure after ensureProjectForOpenFiles:
+Info 16   [10:14:31.329] got projects updated in background, updating diagnostics for /emacsDocuments/shoppinglist/src/App.js
