@@ -1,0 +1,83 @@
+[15:1:51.347] Global cache location '/home/docker/.cache/typescript/3.7', safe file path '/usr/lib/node_modules/typescript/lib/typingSafeList.json', types map path /usr/lib/node_modules/typescript/lib/typesMap.json
+[15:1:51.348] Processing cache location '/home/docker/.cache/typescript/3.7'
+[15:1:51.348] Trying to find '/home/docker/.cache/typescript/3.7/package.json'...
+[15:1:51.348] Finished processing cache location '/home/docker/.cache/typescript/3.7'
+[15:1:51.349] Process id: 59
+[15:1:51.349] NPM location: /usr/bin/npm (explicit '--npmLocation' not  provided)
+[15:1:51.349] validateDefaultNpmLocation: false
+[15:1:51.349] Npm config file: /home/docker/.cache/typescript/3.7/package.json
+[15:1:51.349] Npm config file: '/home/docker/.cache/typescript/3.7/package.json' is missing, creating new one...
+[15:1:51.351] Updating types-registry npm package...
+[15:1:51.351] Exec: /usr/bin/npm install --ignore-scripts types-registry@latest
+[15:1:52.423]     Succeeded. stdout:
+    + types-registry@0.1.473
+    added 1 package from 1 contributor and audited 1 package in 0.469s
+found 0 vulnerabilities
+
+
+[15:1:52.423] Updated types-registry npm package
+[15:1:54.725] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.d.ts","/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/emacsDocuments/carfront/src/App.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/emacsDocuments/carfront/src","kind":"discover"}
+[15:1:54.761] Loaded safelist from types map file '/usr/lib/node_modules/typescript/lib/typesMap.json'
+[15:1:54.762] Explicitly included types: []
+[15:1:54.763] Inferred typings from unresolved imports: []
+[15:1:54.763] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/emacsDocuments/carfront/src/bower_components","/emacsDocuments/carfront/src/node_modules"]}
+[15:1:54.763] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/emacsDocuments/carfront/src/bower_components","/emacsDocuments/carfront/src/node_modules"]}
+[15:1:54.764] DirectoryWatcher:: Added:: WatchInfo: /emacsDocuments/carfront/src/bower_components
+[15:1:54.766] DirectoryWatcher:: Added:: WatchInfo: /emacsDocuments/carfront/src/node_modules
+[15:1:54.766] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[15:1:54.767] Response has been sent.
+[15:1:54.767] No new typings were requested as a result of typings discovery
+[15:2:47.754] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.d.ts","/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/emacsDocuments/carfront/src/App.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@"],"projectRootPath":"/emacsDocuments/carfront/src","kind":"discover"}
+[15:2:47.755] Explicitly included types: []
+[15:2:47.755] Inferred typings from unresolved imports: ["@"]
+[15:2:47.756] Result: {"cachedTypingPaths":[],"newTypingNames":["@"],"filesToWatch":["/emacsDocuments/carfront/src/bower_components","/emacsDocuments/carfront/src/node_modules"]}
+[15:2:47.756] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@"],"filesToWatch":["/emacsDocuments/carfront/src/bower_components","/emacsDocuments/carfront/src/node_modules"]}
+[15:2:47.756] Installing typings ["@"]
+[15:2:47.756] '@':: Package name '@' contains non URI safe characters
+[15:2:47.756] All typings are known to be missing or invalid - no need to install more typings
+[15:2:47.756] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@"],"kind":"action::set"}
+[15:2:47.757] Response has been sent.
+[15:2:48.166] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.d.ts","/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/emacsDocuments/carfront/src/App.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@m"],"projectRootPath":"/emacsDocuments/carfront/src","kind":"discover"}
+[15:2:48.167] Explicitly included types: []
+[15:2:48.167] Inferred typings from unresolved imports: ["@m"]
+[15:2:48.167] Result: {"cachedTypingPaths":[],"newTypingNames":["@m"],"filesToWatch":["/emacsDocuments/carfront/src/bower_components","/emacsDocuments/carfront/src/node_modules"]}
+[15:2:48.167] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@m"],"filesToWatch":["/emacsDocuments/carfront/src/bower_components","/emacsDocuments/carfront/src/node_modules"]}
+[15:2:48.167] Installing typings ["@m"]
+[15:2:48.168] '@m':: Package name '@m' contains non URI safe characters
+[15:2:48.168] All typings are known to be missing or invalid - no need to install more typings
+[15:2:48.168] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@m"],"kind":"action::set"}
+[15:2:48.168] Response has been sent.
+[15:2:48.328] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.d.ts","/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/emacsDocuments/carfront/src/App.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@ma"],"projectRootPath":"/emacsDocuments/carfront/src","kind":"discover"}
+[15:2:48.328] Explicitly included types: []
+[15:2:48.329] Inferred typings from unresolved imports: ["@ma"]
+[15:2:48.329] Result: {"cachedTypingPaths":[],"newTypingNames":["@ma"],"filesToWatch":["/emacsDocuments/carfront/src/bower_components","/emacsDocuments/carfront/src/node_modules"]}
+[15:2:48.329] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@ma"],"filesToWatch":["/emacsDocuments/carfront/src/bower_components","/emacsDocuments/carfront/src/node_modules"]}
+[15:2:48.329] Installing typings ["@ma"]
+[15:2:48.329] '@ma':: Package name '@ma' contains non URI safe characters
+[15:2:48.329] All typings are known to be missing or invalid - no need to install more typings
+[15:2:48.329] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@ma"],"kind":"action::set"}
+[15:2:48.329] Response has been sent.
+[15:2:49.254] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.d.ts","/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/emacsDocuments/carfront/src/App.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@@material-ui/core"],"projectRootPath":"/emacsDocuments/carfront/src","kind":"discover"}
+[15:2:49.255] Explicitly included types: []
+[15:2:49.255] Inferred typings from unresolved imports: ["@@material-ui/core"]
+[15:2:49.255] Result: {"cachedTypingPaths":[],"newTypingNames":["@@material-ui/core"],"filesToWatch":["/emacsDocuments/carfront/src/bower_components","/emacsDocuments/carfront/src/node_modules"]}
+[15:2:49.255] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@@material-ui/core"],"filesToWatch":["/emacsDocuments/carfront/src/bower_components","/emacsDocuments/carfront/src/node_modules"]}
+[15:2:49.255] Installing typings ["@@material-ui/core"]
+[15:2:49.255] '@@material-ui/core':: Scope name '@material-ui' contains non URI safe characters
+[15:2:49.256] All typings are known to be missing or invalid - no need to install more typings
+[15:2:49.256] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@@material-ui/core"],"kind":"action::set"}
+[15:2:49.256] Response has been sent.
+[15:2:52.881] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.d.ts","/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/emacsDocuments/carfront/src/App.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/emacsDocuments/carfront/src","kind":"discover"}
+[15:2:52.882] Explicitly included types: []
+[15:2:52.882] Inferred typings from unresolved imports: []
+[15:2:52.882] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/emacsDocuments/carfront/src/bower_components","/emacsDocuments/carfront/src/node_modules"]}
+[15:2:52.882] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/emacsDocuments/carfront/src/bower_components","/emacsDocuments/carfront/src/node_modules"]}
+[15:2:52.882] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[15:2:52.882] Response has been sent.
+[15:2:52.882] No new typings were requested as a result of typings discovery
