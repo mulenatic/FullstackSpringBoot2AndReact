@@ -5,6 +5,7 @@ import 'react-table-v6/react-table.css';
 import {ToastContainer, toast} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import AddCar from './AddCar';
+import EditCar from './EditCar';
 
 class Carlist extends Component {
 
@@ -99,6 +100,13 @@ class Carlist extends Component {
 	}, {
 	    Header: 'Price $',
 	    accessor: 'price'
+	}, {
+	    id: 'editButton',
+	    sortable: false,
+	    filterable: false,
+	    width: 100,
+	    accessor: '_links.self.href',
+	    Cell: ({value, row}) => (<EditCar car={row} link={value} updateCar={this.updateCar} fetchCars={this.fetchCars} />)
 	}, {
 	    id: 'delbutton',
 	    sortable: false,
