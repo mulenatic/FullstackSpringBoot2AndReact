@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Dialog, DialogTitle, DialogContent, DialogActions } from '@material-ui/core';
+import { Dialog, DialogTitle, DialogContent, DialogActions, Button } from '@material-ui/core';
 
 const EditCar = (props) => {
 
@@ -26,7 +26,7 @@ const EditCar = (props) => {
 
     return (
 	<div>
-	  <button style={{margin: 10}} onClick={handleClickOpen} >Edit</button>
+	  <Button color="primary" size="small" onClick={handleClickOpen} >Edit</Button>
 	  <Dialog open={open} onClose={handleClose}>
 	    <DialogTitle>New Car</DialogTitle>
 	    <DialogContent>
@@ -37,8 +37,8 @@ const EditCar = (props) => {
 	      <input type="text" placeholder="Price" name="price" value={car.price} onChange={handleChange}/><br/>
 	    </DialogContent>
 	    <DialogActions>
-	      <button onClick={handleClose}>Cancel</button>
-	      <button onClick={handleSave}>Save</button>
+	      <Button color="secondary" onClick={handleClose}>Cancel</Button>
+	      <Button color="primary" onClick={handleSave}>Save</Button>
 	    </DialogActions>
 	  </Dialog>
 	</div>
