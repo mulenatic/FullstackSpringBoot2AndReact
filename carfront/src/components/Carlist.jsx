@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import {SERVER_URL} from "../constants";
+import ReactTable from 'react-table-v6';
+import 'react-table-v6/react-table.css';
 
 class Carlist extends Component {
 
@@ -20,22 +22,26 @@ class Carlist extends Component {
     };
     
     render() {
-	const tableRows = this.state.cars.map((car, index) =>
-					 <tr key={index}>
-					 <td>{car.brand}</td>
-					 <td>{car.model}</td>
-					 <td>{car.color}</td>
-					 <td>{car.year}</td>
-					 <td>{car.price}</td>
-					 </tr>
-					);
-	
-	
+	const columns = [{
+	    Header: 'Brand',
+	    accessor: 'brand',
+	}, {
+	    Header: 'Model',
+	    accessor: 'model'
+	}, {
+	    Header: 'Color',
+	    accessor: 'color'
+	}, {
+	    Header: 'Year',
+	    accessor: 'year'
+	}, {
+	    Header: 'Price $',
+	    accessor: 'price'
+	}];
+
 	return (
-	    <div>
-	      <table>
-		<tbody>{tableRows}</tbody>
-	      </table>
+	    <div className="Carlist">
+	      <ReactTable data={this.state.cars} columns={columns} filterable={true} />
 	    </div>
 	);
     };
