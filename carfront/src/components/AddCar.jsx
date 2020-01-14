@@ -19,6 +19,11 @@ const AddCar = (props) => {
     const handleChange = (event) => {
 	setCar({...car, [event.target.name]: event.target.value});
     };
+
+    const handleSave = () => {
+	props.addCar(car);
+	handleClickClose();
+    };
     
     return (
 	<div>
@@ -34,7 +39,7 @@ const AddCar = (props) => {
 	    </DialogContent>
 	    <DialogActions>
 	      <button onClick={handleClickClose}>Cancel</button>
-	      <button onClick={handleClickClose}>Save</button>
+	      <button onClick={handleSave}>Save</button>
 	    </DialogActions>
 	  </Dialog>
 	</div>
