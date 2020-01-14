@@ -57,6 +57,31 @@ class Carlist extends Component {
 	    .then(res => this.fetchCars())
 	    .catch(err => console.log(err));
     }
+
+    updateCar  = (car, link) => {
+
+	fetch(link, {method: 'PUT',
+		     headers: {
+			 'Content-Type': 'application/json',
+		     },
+		     body: JSON.stringify(car)
+		    })
+	    .then(res => {
+		toast.success("Changes saved", {
+		    position: toast.POSITION.BOTTOM_LEFT
+		});
+		this.fetchCars();
+	    })
+	    .catch(err => {
+		toast.error("Error when saving updates", {
+		    position: toast.POSITION.BOTTOM_LEFT
+		});
+		console.log(err);
+	    });
+
+    };
+
+    
     
     render() {
 	const columns = [{
