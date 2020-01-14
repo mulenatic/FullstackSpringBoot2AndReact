@@ -1,6 +1,7 @@
 import React from 'react';
 import { AppBar, Toolbar, Typography } from '@material-ui/core';
 import './App.css';
+import CarList from "./components/Carlist";
 
 function App() {
     return (
@@ -11,7 +12,8 @@ function App() {
 		CarList
 	      </Typography>
 	    </Toolbar>
-	    </AppBar>
+	  </AppBar>
+	  <CarList />
 	</div>
     );
 }
