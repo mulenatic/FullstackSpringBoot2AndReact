@@ -22,8 +22,8 @@ const AddCar = (props) => {
     
     return (
 	<div>
-	  <button style={{margin: 10}} onClick={handleClickOpen} />
-	  <Dialog open={open} onClose={handleClose}>
+	  <button style={{margin: 10}} onClick={handleClickOpen} >Add Car</button>
+	  <Dialog open={open} onClose={handleClickClose}>
 	    <DialogTitle>New Car</DialogTitle>
 	    <DialogContent>
 	      <input type="text" placeholder="Brand" name="brand" value={car.brand} onChange={handleChange}/><br/>
@@ -33,8 +33,8 @@ const AddCar = (props) => {
 	      <input type="text" placeholder="Price" name="price" value={car.price} onChange={handleChange}/><br/>
 	    </DialogContent>
 	    <DialogActions>
-	      <button onClick={handleClose}>Cancel</button>
-	      <button onClick={handleClose}>Save</button>
+	      <button onClick={handleClickClose}>Cancel</button>
+	      <button onClick={handleClickClose}>Save</button>
 	    </DialogActions>
 	  </Dialog>
 	</div>
