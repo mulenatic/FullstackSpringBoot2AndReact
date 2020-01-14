@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {SERVER_URL} from "../constants";
 
 class Carlist extends Component {
 
@@ -8,7 +9,7 @@ class Carlist extends Component {
     };
 
     componentDidMount() {
-	fetch("http://34.89.240.224:8080/api/cars")
+	fetch(SERVER_URL + "api/cars")
 	    .then((response) => response.json())
 	    .then((responseData) => {
 		this.setState({
