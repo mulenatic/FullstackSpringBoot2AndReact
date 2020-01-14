@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Dialog, DialogTitle, DialogContent, DialogActions, Button } from '@material-ui/core';
+import { Dialog, DialogTitle, DialogContent, DialogActions, Button, TextField } from '@material-ui/core';
 
 const EditCar = (props) => {
 
@@ -30,11 +30,11 @@ const EditCar = (props) => {
 	  <Dialog open={open} onClose={handleClose}>
 	    <DialogTitle>New Car</DialogTitle>
 	    <DialogContent>
-	      <input type="text" placeholder="Brand" name="brand" value={car.brand} onChange={handleChange}/><br/>
-	      <input type="text" placeholder="Model" name="model" value={car.model} onChange={handleChange}/><br/>
-	      <input type="text" placeholder="Color" name="color" value={car.color} onChange={handleChange}/><br/>
-	      <input type="text" placeholder="Year" name="year" value={car.year} onChange={handleChange}/><br/>
-	      <input type="text" placeholder="Price" name="price" value={car.price} onChange={handleChange}/><br/>
+	      <TextField autofocus label="Brand" name="brand" value={car.brand} onChange={handleChange}/><br/>
+	      <TextField fullWidth label="Model" name="model" value={car.model} onChange={handleChange}/><br/>
+	      <TextField fullWidth label="Color" name="color" value={car.color} onChange={handleChange}/><br/>
+	      <TextField fullWidth label="Year" name="year" value={car.year} onChange={handleChange}/><br/>
+	      <TextField fullWidth label="Price" name="price" value={car.price} onChange={handleChange}/><br/>
 	    </DialogContent>
 	    <DialogActions>
 	      <Button color="secondary" onClick={handleClose}>Cancel</Button>
