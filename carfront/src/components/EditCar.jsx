@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {} from '@material-ui/core';
+import { Dialog, DialogTitle, DialogContent, DialogActions } from '@material-ui/core';
 
 const EditCar = (props) => {
 
@@ -7,6 +7,7 @@ const EditCar = (props) => {
     const[car, setCar] = useState(useState({brand: '', model: '', year: '', color: '', price: ''}));
 
     const handleClickOpen = () => {
+	setCar({brand: props.car.brand, model: props.car.model, year: props.car.year, color: props.car.color, price: props.car.price});
 	setOpen(true);
     };
 
@@ -18,7 +19,9 @@ const EditCar = (props) => {
 	setCar({...car, [event.target.name]: event.target.value});
     };
 
-    const handleSave() => {
+    const handleSave = () => {
+	props.updateCar(car, props.link);
+	handleClose();
     };
 
     return (
