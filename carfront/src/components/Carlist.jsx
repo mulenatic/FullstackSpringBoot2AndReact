@@ -28,19 +28,21 @@ class Carlist extends Component {
     };
 
     onDelClick = (link) => {
-	fetch(link, {method: 'DELETE'})
-	    .then(res => {
-		toast.success("Car deleted", {
-		    position: toast.POSITION.BOTTOM_LEFT
+	if (window.confirm('Are you sure to delete?')) {
+	    fetch(link, {method: 'DELETE'})
+		.then(res => {
+		    toast.success("Car deleted", {
+			position: toast.POSITION.BOTTOM_LEFT
+		    });
+		    this.fetchCars();
+		})
+		.catch(err => {
+		    toast.error("Error when deleting", {
+			position: toast.POSITION.BOTTOM_LEFT
+		    });
+		    console.log(err);
 		});
-		this.fetchCars();
-	    })
-	    .catch(err => {
-		toast.error("Error when deleting", {
-		    position: toast.POSITION.BOTTOM_LEFT
-		});
-		console.log(err);
-	    });
+	}
     };
     
     render() {
