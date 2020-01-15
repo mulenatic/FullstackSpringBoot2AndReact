@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { TextField, Button } from "@material-ui/core";
 import { SERVER_URL } from '../constants';
 import Carlist from './Carlist';
+import { ToastContainer, toast } from 'react-toastify';
 
 const Login = () => {
 
@@ -22,7 +23,12 @@ const Login = () => {
 		if (jwtToken != null) {
 		    sessionStorage.setItem("jwt", jwtToken);
 		    setAuth(true);
+		} else {
+		    toast.warn("Check your username and password", {
+			position: toast.POSITION.BOTTOM_LEFT
+		    });
 		}
+			      
 	    })
 	    .catch(err => console.log(err));
     };
@@ -38,6 +44,7 @@ const Login = () => {
 	      <Button variant="outlined" color="primary" onClick={login}>
 		Login
 	      </Button>
+	      <ToastContainer autoClose={1500}/>
 	    </div>
 	);
 
